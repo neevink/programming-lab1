@@ -6,14 +6,12 @@ public class Main {
         long[] d = new long[arrayHeight];
         for(int i = 0; i < d.length; i++){
             d[i] = seventeen - i*2;
-            //System.out.println(d[i]);
         }
 
         //2
         float[] x = new float[arrayWidth];
         for(int i = 0; i < x.length; i++){
             x[i] = randomInRange(-9, 7);
-            //System.out.println(x[i]);
         }
 
         //3 Использую имя массива d2, потому что d уже есть
